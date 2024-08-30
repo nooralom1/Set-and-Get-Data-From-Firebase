@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "955934958394",
-    "project_id": "user-info-e2489",
-    "storage_bucket": "user-info-e2489.appspot.com"
+    "project_number": "938519338666",
+    "project_id": "user-info-ad3dc",
+    "storage_bucket": "user-info-ad3dc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:955934958394:android:48d096ac3a04596a212603",
+        "mobilesdk_app_id": "1:938519338666:android:e83163edd1ae295e40fad3",
         "android_client_info": {
           "package_name": "com.ns_it.set_and_get_data_from_firebase"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBHzjQUghG8LLHoACWclvbRfrAZS18j2oE"
+          "current_key": "AIzaSyDGaLbq6zlZPipmXw-63CNjAFrhLdvQKLA"
         }
       ],
       "services": {
