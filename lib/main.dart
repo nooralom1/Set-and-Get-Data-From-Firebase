@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:set_and_get_data_from_firebase/view/screen/home/home.dart';
+import 'package:set_and_get_data_from_firebase/view/screen/add_info/add_info.dart';
 import 'controller/firebase_controller/firebase_options.dart';
 
 void main()async{
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: AddInfo(),
     );
   }
 }
