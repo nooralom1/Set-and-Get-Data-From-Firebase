@@ -1,4 +1,3 @@
-import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:set_and_get_data_from_firebase/controller/getx_controller/add_info.dart';
@@ -13,7 +12,7 @@ class AddInfo extends StatelessWidget {
     AddInfoController controller = Get.put(AddInfoController());
     return Scaffold(
       appBar: AppBar(
-        title: Text("Add Info"),
+        title: const Text("Add Info"),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -46,13 +45,15 @@ class AddInfo extends StatelessWidget {
               hintText: 'Validity',
               controller: controller.validityController,
             ),
-            SizedBox(height: 40,),
-            CommonButton(
-              buttonName: 'GET INFO',
-              onTap: () {
-                log("message");
-              },
-            )
+            const SizedBox(
+              height: 40,
+            ),
+          CommonButton(
+            buttonName: 'GET INFO',
+            onTap: () {
+              controller.addUserInfo();
+            },
+          )
           ],
         ),
       ),
