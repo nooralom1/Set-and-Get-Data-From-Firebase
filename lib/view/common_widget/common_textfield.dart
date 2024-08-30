@@ -22,7 +22,7 @@ class CommonTextField extends StatelessWidget {
               hintText: hintText,
           ),
           validator: (value){
-            if(value==null||value==""){
+            if(value==null || value==""){
               const ScaffoldMessenger(child: SnackBar(content: Text("This field can't be emty !")));
             }
             return null;
