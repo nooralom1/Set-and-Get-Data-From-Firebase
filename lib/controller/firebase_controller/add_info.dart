@@ -7,7 +7,7 @@ class AddInfoService{
   static Future<bool> addInfoService({required Map<String,dynamic>info})async{
     try{
       FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
-      await firebaseFirestore.collection("User Info").add(info);
+      await firebaseFirestore.collection("user").add(info);
       return true;
     }catch(e){
       debugPrint("Error: $e");

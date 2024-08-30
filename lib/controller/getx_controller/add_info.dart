@@ -17,7 +17,7 @@ class AddInfoController extends GetxController{
   final formKey = GlobalKey<FormState>();
 
   addUserInfo()async{
-    Map<String,dynamic> info ={
+    Map<String,dynamic> user ={
       "name": nameController.text,
       "id": idController.text,
       "course name": courseController.text,
@@ -28,7 +28,7 @@ class AddInfoController extends GetxController{
     };
     isLoading.value = true;
     log("================");
-    await AddInfoService.addInfoService(info: info);
+    await AddInfoService.addInfoService(info: user);
     log("=======11111111=========");
     isLoading.value = false;
   }
