@@ -38,6 +38,8 @@ android {
         applicationId = "com.ns_it.set_and_get_data_from_firebase"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
+
+        minSdk 21
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutterVersionCode.toInteger()
